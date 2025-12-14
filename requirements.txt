@@ -1,3 +1,4 @@
 click
 ffmpeg-python
 tkinter
+customtkinter
