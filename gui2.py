@@ -4,8 +4,8 @@ import os, ffmpeg
 import customtkinter as ctk
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-if os.path.exists('assets/ds_gui.json'):
-      ctk.set_default_color_theme("assets/ds_gui.json")
+if os.path.exists('_assets/ds_gui.json'):
+      ctk.set_default_color_theme("_assets/ds_gui.json")
 else:
       pass
 blank_file = os.path.join(script_dir, "blank.wav")
@@ -76,3 +76,4 @@ button3 = ctk.CTkButton(app, text="Pad .lab/.wav", command=runpad)
 button3.grid(row=1, column=0, columnspan=2, padx=10, pady=10)
 
 app.mainloop()
+
